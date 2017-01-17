@@ -1,0 +1,82 @@
+html,body{
+	height: 100%;
+	background: #bdc3c7;
+}
+h1, h3{
+	margin: 0;
+	color: white;
+}
+.header{
+	height: 10%;
+	background: orange;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content{
+	background: gray;
+	height: 83%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.footer{
+	background: orange;
+	height: 7%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.maximize{
+	height: 100%;
+}		
+
+.containerP1{
+	background: white;
+}
+
+.containerP2{
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.containerP{
+	height: 100%;
+	width: 80%;
+}
+.principal{
+	padding-right: 7.5px;
+}
+.formA{
+	padding-left: 7.5px;
+}
+.box1{
+	padding-top: 15px;
+}
+.box2 h3{
+	color: black;	
+}
+
+.login{
+	background: #bdc3c7;
+	border-color: #bdc3c7;
+}
+
+.login:hover, .login:focus, .login:active:hover{
+	background: orange;
+	border-color: orange;
+}
+
+p{
+	margin: 0;
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+	color: white;
+}
+
+i{
+	color: #bdc3c7;
+}

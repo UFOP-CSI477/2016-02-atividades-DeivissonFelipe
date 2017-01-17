@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Relação de Cadastro</title>
+	<style>
+		html, body{ height: 100% }
+		body{background-color: #ecf0f1;}
+		body, h1, h2{ margin: 0;}
+		
+		.content{
+			justify-content: space-between;
+			/*display: flex;*/
+  			height: 100%;
+  			/*flex-direction: column;*/	
+		}
+
+		.titulo{
+			padding-top: 20px;
+			font-family: arial;
+			color: white;
+		}
+
+		.header{
+			height: 10%;
+			width: 100%;
+			background-color: #34495e;
+		}
+		.main{
+			height: 85%;
+			width: 70%;
+			background-color: white;
+			margin: auto;
+			justify-content: center;
+			display: flex;
+			flex-direction: column;
+		}
+		
+		#box{
+			background-color: #ecf0f1;
+			margin: 0 auto;
+			width: 50%;	
+		}
+		
+		a{
+			font-size: 20px;
+			padding-left: 60px;
+		}
+
+		table, th, td{
+			font-size: 14px;
+			padding: 5px;
+			border: 1px solid black;
+			text-align: center;
+			border-collapse: collapse;
+		}
+
+		.footer{
+			height: 5%;
+			width: 100%;
+			background-color: #34495e;
+		}
+		p{
+			margin: 0;
+			padding-top: 10px;
+			text-align: center;
+			font-style: italic;
+			font-size: 20px;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<div class="content">
+		<div class="header">
+			<h1 align="center" class="titulo">Sistema de Cadastro</h1>
+		</div>
+		<div class="main">
+			<div id="box">
+				<h2 align="center"> Relação de Alunos Cadastrados</h2><br><br>
+				<table align="center">
+					<tr>
+						<th>Matricula</th>
+						<th>Nome</th>
+						<th>E-mail</th>
+						<th>CPF</th>
+						<th>Assinatura</th>
+					</tr>
+				</table>
+				<br><br>
+				<a  href="menu.html" role="button">Menu</a>
+			</div>
+		</div>
+		<div class="footer">
+			<p>Feito por: Deivisson Felipe da Silva - Sistemas de Informação</p>
+		</div>
+	</div>
+</body>
+</html>

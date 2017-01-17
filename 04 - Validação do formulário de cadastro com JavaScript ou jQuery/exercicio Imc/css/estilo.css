@@ -1,0 +1,25 @@
+body, html{
+	height: 100%;
+}
+
+#meuDiv{
+	content: "";
+	background: url("../img/saude.jpeg");
+	/*background-repeat: repeat-x;*/
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1; 
+}
+
+#content{
+	background: white;
+	height: 100%;
+}
+
+.jumbotron{
+	background: white;
+}

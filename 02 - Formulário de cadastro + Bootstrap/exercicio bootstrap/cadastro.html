@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cadastro</title>
+	<link rel="stylesheet" href="bootstrap.css" />
+</head>
+<body>
+
+	<div class="col-xs-4 col-xs-offset-4">
+		<h2 align="center">Cadastro de Alunos</h2>
+
+		<form name="cadastro" method="post" action="validacao.html">
+		
+			<div class="form-group">
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" class="form-control">
+			</div>
+
+			<div class="col-xs-8">
+				<div class="form-group">
+					<label for="rua">Rua:</label>
+					<input type="text" id="rua" class="form-control">
+				</div>
+			</div>
+
+			<div class="col-xs-4">
+				<div class="form-group">
+					<label for="numero">Nº</label>
+					<input type="text" id="numero" class="form-control">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="complemento">Complemento:</label>
+				<input type="text" id="complemento" class="form-control">
+			</div>
+
+			<div class="col-xs-4">
+				<div class="form-group">
+					<label>Cidade:</label>
+					<div id="listaCidades">
+						<select class="form-control">
+							<option value="1">João Monlevade</option>
+							<option value="2">Itaúna</option>
+							<option value="3">Itabira</option>
+							<option value="4">Belo Horizonte</option>
+							<option value="5">Alvinópolis</option>
+						</select>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-2">
+				<div class="form-group">
+					<label>Estado:</label>
+					<div id="listaEstados">
+						<select class="form-control">
+							<option value="1">AC</option>
+							<option value="2">AL</option>
+							<option value="3">AP</option>
+							<option value="4">AM</option>
+							<option value="5">BA</option>
+							<option value="6">CE</option>
+							<option value="7">DF</option>
+							<option value="8">ES</option>
+							<option value="9">GO</option>
+							<option value="10">MA</option>
+							<option value="11">MT</option>
+							<option value="12">MS</option>
+							<option value="13">MG</option>
+							<option value="14">PA</option>
+							<option value="15">PB</option>
+							<option value="16">PR</option>
+							<option value="17">PE</option>
+							<option value="18">PI</option>
+							<option value="19">RJ</option>
+							<option value="20">RN</option>
+							<option value="21">RS</option>
+							<option value="22">RO</option>
+							<option value="23">RR</option>
+							<option value="24">SC</option>
+							<option value="25">SP</option>
+							<option value="26">SE</option>
+							<option value="27">TO</option>
+						</select>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-6">
+				<div class="form-group">
+					<label for="cep">Cep:</label>
+					<input type="text" id="cep" class="form-control">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="telefone">Telefone:</label>
+				<input type="text" id="telefone" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<label for="celular">Celular:</label>
+				<input type="text" id="celular" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="text" id="email" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<label for="cep">CPF:</label>
+				<input type="number" id="cpf" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<label for="usuario">Usuário</label>
+				<input type="text" id="usuario" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<label for="senha">Senha</label>
+				<input type="password" id="senha" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<label for="cSenha">Confirmação de Senha</label>
+				<input type="password" id="cSenha" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<label>Gênero</label>
+				<div class="radio">
+					<label><input type="radio" name="genero" value="F"> Feminino</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" name="genero" value="M" > Masculino</label>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label>Área de Interesse:</label>
+				<div class="checkbox">
+					<label><input type="checkbox" name="area">Web</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" name="area">BD</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" name="area">Redes</label>
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" name="area">Eng. Software</label>
+				</div>
+			</div>
+
+			<div class="col-xs-6">
+				<input type="submit" value="Cadastrar" class="btn btn-primary btn-block">
+			</div>
+			<div class="col-xs-6">
+				<input type = "reset" value = "Limpar" class="btn btn-danger btn-block" />
+			</div>
+			<br><br>
+		</form>
+
+	</div>
+	
+
+
+
+</body>
+</html>
